@@ -75,6 +75,22 @@ body{
     z-index: 1;
 }
 
+.modal-header {
+    background-color: $background-dark;
+    color: floralwhite;
+    border-bottom: 0px;
+    button {
+        p {
+            color: floralwhite;
+        }
+    }
+}
+
+.modal-body {
+    background-color: $background-pale;
+}
+
+
 /*
 'npm install --save-dev node-sass'
 'npm run scss'
